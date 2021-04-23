@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/Login.css" >
+    <script type="text/javascript" src="/assets/application.js"></script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" type="text/css">
+    <link rel="icon" href="/assets/favicon.ico">
+    <style type="text/css"> [data-col="5"] { left:1245px;}  [data-col="4"] { left:935px;}  [data-col="3"] { left:625px;}  [data-col="2"] { left:315px;}  [data-col="1"] { left:5px;}  [data-row="16"] { top:5555px;}  [data-row="15"] { top:5185px;}  [data-row="14"] { top:4815px;}  [data-row="13"] { top:4445px;}  [data-row="12"] { top:4075px;}  [data-row="11"] { top:3705px;}  [data-row="10"] { top:3335px;}  [data-row="9"] { top:2965px;}  [data-row="8"] { top:2595px;}  [data-row="7"] { top:2225px;}  [data-row="6"] { top:1855px;}  [data-row="5"] { top:1485px;}  [data-row="4"] { top:1115px;}  [data-row="3"] { top:745px;}  [data-row="2"] { top:375px;}  [data-row="1"] { top:5px;}  [data-sizey="1"] { height:360px;} [data-sizey="2"] { height:730px;} [data-sizey="3"] { height:1100px;} [data-sizey="4"] { height:1470px;} [data-sizey="5"] { height:1840px;} [data-sizey="6"] { height:2210px;} [data-sizey="7"] { height:2580px;} [data-sizey="8"] { height:2950px;} [data-sizey="9"] { height:3320px;} [data-sizey="10"] { height:3690px;} [data-sizey="11"] { height:4060px;} [data-sizey="12"] { height:4430px;} [data-sizey="13"] { height:4800px;} [data-sizey="14"] { height:5170px;} [data-sizey="15"] { height:5540px;} [data-sizex="1"] { width:300px;} [data-sizex="2"] { width:610px;} [data-sizex="3"] { width:920px;} [data-sizex="4"] { width:1230px;} [data-sizex="5"] { width:1540px;} [data-sizex="6"] { width:1850px;}</style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+
+</head>
+<body>
+    <div id="container">
+        <div class="gridster ready" style="width: 1240px;">
+    <ul style="height: 740px; position: relative;">
+      <li data-row="1" data-col="1" data-sizex="2" data-sizey="1" class="gs_w player-revert" style="position: absolute;">
+        <div data-id="welcome" data-title="Hello" data-text="This is your shiny new dashboard." data-moreinfo="Protip: You can drag the widgets around!" class="widget widget-text welcome"><h1 class="title" data-bind="title">Hello</h1>
+  
+  <h3 data-bind="text | raw">This is your shiny new dashboard.</h3>
+  
+  <p class="more-info" data-bind="moreinfo | raw">Protip: You can drag the widgets around!</p>
+  
+  <p class="updated-at" data-bind="updatedAtMessage"></p>
+  </div>
+      </li>
+  
+      <li data-row="1" data-col="3" data-sizex="1" data-sizey="1" class="gs_w">
+        <div data-id="synergy" data-title="Synergy" data-min="0" data-max="100" class="widget widget-meter synergy"><h1 class="title" data-bind="title">Synergy</h1>
+  
+  <div style="display:inline;width:200px;height:200px;"><canvas width="200" height="200px"></canvas><input class="meter" data-angleoffset="-125" data-anglearc="250" data-width="200" data-readonly="true" data-bind-value="value | shortenedNumber" data-bind-data-min="min" data-bind-data-max="max" data-min="0" data-max="100" data-bgcolor="rgb(102, 43, 76)" data-fgcolor="rgb(255, 255, 255)" readonly="readonly" style="width: 104px; height: 66px; position: absolute; vertical-align: middle; margin-top: 66px; margin-left: -152px; border: 0px; background: none; font: bold 40px Arial; text-align: center; color: rgb(255, 255, 255); padding: 0px; appearance: none;"></div>
+  
+  <p class="more-info" data-bind="moreinfo"></p>
+  
+  <p class="updated-at" data-bind="updatedAtMessage">Last updated at 9:00</p>
+  </div>
+      </li>
+  
+      <li data-row="1" data-col="4" data-sizex="1" data-sizey="2" class="gs_w">
+        <div data-id="buzzwords" data-unordered="true" data-title="Buzzwords" data-moreinfo="# of times said around the office" class="widget widget-list buzzwords"><h1 class="title" data-bind="title">Buzzwords</h1>
+  
+  
+  
+  <ul class="list-nostyle">
+    <!--start item-1--><li>
+      <span class="label" data-bind="item.label">Turn-key</span>
+      <span class="value" data-bind="item.value">17</span>
+    </li><li>
+      <span class="label" data-bind="item.label">Web 2.0</span>
+      <span class="value" data-bind="item.value">21</span>
+    </li><li>
+      <span class="label" data-bind="item.label">Enterprise</span>
+      <span class="value" data-bind="item.value">7</span>
+    </li><li>
+      <span class="label" data-bind="item.label">Synergy</span>
+      <span class="value" data-bind="item.value">5</span>
+    </li><li>
+      <span class="label" data-bind="item.label">Exit strategy</span>
+      <span class="value" data-bind="item.value">3</span>
+    </li><li>
+      <span class="label" data-bind="item.label">Leverage</span>
+      <span class="value" data-bind="item.value">24</span>
+    </li><li>
+      <span class="label" data-bind="item.label">Pivoting</span>
+      <span class="value" data-bind="item.value">9</span>
+    </li><li>
+      <span class="label" data-bind="item.label">Paradigm shift</span>
+      <span class="value" data-bind="item.value">24</span>
+    </li><li>
+      <span class="label" data-bind="item.label">Streamlininess</span>
+      <span class="value" data-bind="item.value">21</span>
+    </li><!--end item-1-->
+  </ul>
+  
+  <p class="more-info" data-bind="moreinfo"># of times said around the office</p>
+  <p class="updated-at" data-bind="updatedAtMessage">Last updated at 9:00</p>
+  </div>
+      </li>
+  
+      <li data-row="2" data-col="1" data-sizex="1" data-sizey="1" class="gs_w">
+        <div data-id="valuation" data-title="Current Valuation" data-moreinfo="In billions" data-prefix="$" class="widget widget-number valuation"><h1 class="title" data-bind="title">Current Valuation</h1>
+  
+  <h2 class="value" data-bind="current | shortenedNumber | prepend prefix | append suffix">$73</h2>
+  
+  <p class="change-rate">
+    <i data-bind-class="arrow" class="icon-arrow-up"></i><span data-bind="difference">74%</span>
+  </p>
+  
+  <p class="more-info" data-bind="moreinfo | raw">In billions</p>
+  
+  <p class="updated-at" data-bind="updatedAtMessage">Last updated at 9:00</p>
+  </div>
+      </li>
+  
+      <li data-row="2" data-col="2" data-sizex="2" data-sizey="1" class="gs_w">
+        <div data-id="convergence" data-title="Convergence" style="background-color:#ff9618" class="widget widget-graph convergence rickshaw_graph"><h1 class="title" data-bind="title">Convergence</h1>
+  
+  <h2 class="value" data-bind="current | prettyNumber | prepend prefix">37</h2>
+  
+  <p class="more-info" data-bind="moreinfo"></p>
+  <svg width="610" height="360"><path d="M0,99.89831415573985Q58.74074074074073,31.82231736687177,67.77777777777777,42.097939523682044C81.33333333333333,57.51137275889746,121.99999999999999,238.6192132726786,135.55555555555554,254.03264650789401S189.77777777777777,211.64570511105163,203.33333333333331,196.2322718758362S257.55555555555554,83.52154134332348,271.1111111111111,99.89831415573985S325.33333333333337,339.7698688787798,338.8888888888889,360S393.1111111111111,323.3930960663634,406.66666666666663,302.1996253679422S460.88888888888886,157.6986887877977,474.4444444444444,148.06529301578806S528.6666666666666,220.3157613058603,542.2222222222222,205.86566764784584Q551.2592592592592,196.2322718758362,610,3.5643564356435036L610,360Q551.2592592592592,360,542.2222222222222,360C528.6666666666666,360,487.99999999999994,360,474.4444444444444,360S420.2222222222222,360,406.66666666666663,360S352.44444444444446,360,338.8888888888889,360S284.66666666666663,360,271.1111111111111,360S216.88888888888886,360,203.33333333333331,360S149.1111111111111,360,135.55555555555554,360S81.33333333333333,360,67.77777777777777,360Q58.74074074074073,360,0,360Z" fill="#fff" stroke="none" stroke-width="2" class="undefined"></path><g class="y_ticks plain"><g transform="translate(0,360)" style="opacity: 1;"><line class="tick" x2="4" y2="0"></line><text x="7" y="0" dy=".32em" text-anchor="start"></text></g><g transform="translate(0,263.66604227990365)" style="opacity: 1;"><line class="tick" x2="4" y2="0"></line><text x="7" y="0" dy=".32em" text-anchor="start">10</text></g><g transform="translate(0,167.3320845598073)" style="opacity: 1;"><line class="tick" x2="4" y2="0"></line><text x="7" y="0" dy=".32em" text-anchor="start">20</text></g><g transform="translate(0,70.998126839711)" style="opacity: 1;"><line class="tick" x2="4" y2="0"></line><text x="7" y="0" dy=".32em" text-anchor="start">30</text></g><path class="domain" d="M4,0H0V360H4"></path></g><g class="y_grid"><g transform="translate(0,360)" style="opacity: 1;"><line class="tick" x2="610" y2="0"></line><text x="613" y="0" dy=".32em" text-anchor="start"></text></g><g transform="translate(0,263.66604227990365)" style="opacity: 1;"><line class="tick" x2="610" y2="0"></line><text x="613" y="0" dy=".32em" text-anchor="start">10</text></g><g transform="translate(0,167.3320845598073)" style="opacity: 1;"><line class="tick" x2="610" y2="0"></line><text x="613" y="0" dy=".32em" text-anchor="start">20</text></g><g transform="translate(0,70.998126839711)" style="opacity: 1;"><line class="tick" x2="610" y2="0"></line><text x="613" y="0" dy=".32em" text-anchor="start">30</text></g><path class="domain" d="M610,0H0V360H610"></path></g></svg><div class="x_tick plain" style="left: 0px;"><div class="title">12s</div></div><div class="x_tick plain" style="left: 67.7778px;"><div class="title">13s</div></div><div class="x_tick plain" style="left: 135.556px;"><div class="title">14s</div></div><div class="x_tick plain" style="left: 203.333px;"><div class="title">15s</div></div><div class="x_tick plain" style="left: 271.111px;"><div class="title">16s</div></div><div class="x_tick plain" style="left: 338.889px;"><div class="title">17s</div></div><div class="x_tick plain" style="left: 406.667px;"><div class="title">18s</div></div><div class="x_tick plain" style="left: 474.444px;"><div class="title">19s</div></div><div class="x_tick plain" style="left: 542.222px;"><div class="title">20s</div></div></div>
+      </li>
+    </ul>
+    <!-- <center><div style="font-size: 12px">Try this: curl -d '{ "auth_token": "YOUR_AUTH_TOKEN", "text": "Hey, Look what I can do!" }' \http://dashingdemo.herokuapp.com:80/widgets/welcome</div></center> -->
+  </div>
+      </div>
+<!-- <h1>Share Bahadur</h1> -->
+    <!-- <form class="box" action="Login.html" method="POST"> -->
+
+<!-- <label>SELECT YOUR BANK<br>
+    <select id="option" name="bank">
+        <option name="bank">None</option>
+        <option name="NIC ASIA">NIC ASIA</option>
+        <option name="SANIMA">SANIMA</option>
+        <option name="NMB BANK">NMB BANK</option>
+        <option name="NEPAL BANK">NEPAL BANK</option>
+        <option name="NEPAL NAIONAL BANK">NEPAL NATIONAL BANK</option>
+        <option name="BADIJYA BANK">BADIJYA BANK</option> <br>
+    </select><br><br> -->
+<!-- <label > Username:</label> -->
+<!-- <input type="text" name="" placeholder="Username" id="username"> -->
+<!-- <label> Password:</label> -->
+<!-- <input type="password" name="" placeholder="Enter Passsword" id="password"> -->
+<!-- <input type="submit"  name="Login" value="Login"> -->
+<!-- <div class="button" style="float:right;"> -->
+<!-- <a href="Signin.html" class="btn">Sign Up?</a> </div> -->
+<!-- <input type="button" style="float:right;"  name="Signup" value="Sign Up?"> -->
+
+<!-- </form> -->
+</body>
+</html>
