@@ -5,3 +5,4 @@
 - dummy dashboard.
 - my profile with dummy datas
 -  my shares.
+- change in alert
